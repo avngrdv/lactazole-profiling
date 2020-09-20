@@ -44,4 +44,4 @@ def Y_score(Y, lib, basename):
     png = basename + '.png'
     fig.savefig(svg, bbox_inches = 'tight')
     fig.savefig(png, bbox_inches = 'tight')
-    return fig
+    return
