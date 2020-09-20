@@ -166,7 +166,7 @@ def Y_sampling_error(P_pos, P_neg, z=1.96):
     
     #Number of trials
     n_pos = P_pos.shape[0]
-    n_neg = P_pos.shape[0]
+    n_neg = P_neg.shape[0]
     
     #Calculate sampling confidence intervals both for
     #positive and negative samples
